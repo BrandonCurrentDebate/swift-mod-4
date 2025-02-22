@@ -1,0 +1,1 @@
+const _bgl=function(){for(var e of document.querySelectorAll("[style*=background]"))iv(e)&&e.classList.add("swift-in-viewport");requestAnimationFrame(_bgl)};document.addEventListener("swift/beforejs",_bgl);

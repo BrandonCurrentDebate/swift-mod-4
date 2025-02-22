@@ -1,0 +1,15 @@
+add_filter('swift3_elementor_widget_settings', function($settings, $content, $that){
+      if (in_array($that->get_name(), array('jet-mobile-menu', 'jet-mega-menu'))){
+            $settings['swift-ajaxify'] = 'yes';
+      }
+
+      return $settings;
+},10,3);
+
+add_filter('swift3_fragment_callback', function($callback, $content, $that){
+      if (in_array($that->get_name(), array('jet-mobile-menu', 'jet-mega-menu'))){
+            $callback = '(typeof jetMenu !== \'undefined\' && jetMenu.init())';
+      }
+
+      return $callback;
+}, 10, 3);

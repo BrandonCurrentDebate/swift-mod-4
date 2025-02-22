@@ -1,0 +1,1 @@
+function __wf(n){return new Promise(t=>{if(document.querySelector(n))return t(document.querySelector(n));const r=new MutationObserver(e=>{document.querySelector(n)&&(t(document.querySelector(n)),r.disconnect())});r.observe(document,{childList:!0,subtree:!0})})}
