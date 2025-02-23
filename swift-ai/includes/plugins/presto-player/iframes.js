@@ -1,1 +1,0 @@
-document.addEventListener("swift/js",function(){function r(){for(var e of document.querySelectorAll("presto-player"))if(e.shadowRoot)for(var o of e.shadowRoot.querySelectorAll("iframe[data-src]"))ivp(o)&&prpif(o);requestAnimationFrame(r)}requestAnimationFrame(r)});

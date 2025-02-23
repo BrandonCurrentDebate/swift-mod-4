@@ -1,1 +1,0 @@
-!function(){var a=!1;window.addEventListener("pagehide",function(){try{var n;a||navigator.userAgent.match(/Swift Performance/)||(a=!0,(n=new FormData).append("url",document.location.href),navigator.sendBeacon(_anep,n))}catch(n){}})}();
