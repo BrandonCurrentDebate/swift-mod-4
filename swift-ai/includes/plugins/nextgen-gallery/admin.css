@@ -1,0 +1,8 @@
+#adminmenu li.toplevel_page_nextgen-gallery img,
+#adminmenu li[class*=toplevel_page_nextgen-gallery] img,
+#adminmenu li[class*=toplevel_page_ngg] img {
+    opacity: 1;
+    max-width: 18px;
+    padding-top: 7px;
+}
+
